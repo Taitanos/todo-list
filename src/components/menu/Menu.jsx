@@ -1,10 +1,11 @@
 import {S} from "./Menu_Styled";
+import Filter from "../filter/Filter";
 
-export default function Menu() {
+export default function Menu({onFilter, onResetFilters}) {
     return (
         <S.Menu>
             <S.Dashboard>Dashboard</S.Dashboard>
-            <S.Filter>Filter</S.Filter>
+            <Filter onFilter={onFilter} onResetFilters={onResetFilters}/>
             <S.Calendar>Calendar</S.Calendar>
         </S.Menu>
     )
