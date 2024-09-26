@@ -13,6 +13,7 @@ export default function Main({tasks}) {
                       description={task.description}
                       users={task.users}
                       taskStatus={task.taskStatus}
+                      collapse={task.collapse}
                 />))}
         </S.Main>
     )

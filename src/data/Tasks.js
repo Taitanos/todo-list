@@ -16,6 +16,7 @@ const Tasks = [
             "Владимир"
         ],
         taskStatus: "В работе",
+        collapse: true,
     },
     {
         id: 2,
@@ -28,6 +29,7 @@ const Tasks = [
             "Николай"
         ],
         taskStatus: "Завершено",
+        collapse: true,
     },
     {
         id: 3,
@@ -40,6 +42,7 @@ const Tasks = [
             "Николай"
         ],
         taskStatus: "В работе",
+        collapse: true,
     },
     {
         id: 4,
@@ -52,6 +55,7 @@ const Tasks = [
             "Николай"
         ],
         taskStatus: "Новый",
+        collapse: true,
     },
     {
         id: 5,
@@ -64,6 +68,7 @@ const Tasks = [
             "Николай"
         ],
         taskStatus: "Новый",
+        collapse: true,
     },
     {
         id: 6,
@@ -76,6 +81,7 @@ const Tasks = [
             "Николай"
         ],
         taskStatus: "Новый",
+        collapse: true,
     },
     {
         id: 7,
@@ -88,6 +94,7 @@ const Tasks = [
             "Николай"
         ],
         taskStatus: "Новый",
+        collapse: true,
     }
 ]
 
